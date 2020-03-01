@@ -1,0 +1,196 @@
+.navbar-custom{
+    background:linear-gradient(100deg, #FA5FC6 0%, #A0FA08 100%);
+    color: white;
+}
+
+.navbar-brand{
+    margin:0;
+    padding: 0;
+}
+
+.top-img{
+    width: 100vw;
+    height: 100vh;
+    margin-bottom: 120px;
+}
+
+.top-title{
+    position: absolute;
+    color: white;
+    top: 50%; 
+    left: 50%; 
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    text-align: center;
+}
+
+.page-section{
+    margin-bottom: 120px;
+}
+
+.img-cont{
+    position: relative;
+    overflow: hidden;
+}
+
+.img-cont-title{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:10px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.img-cont-img {
+    width:100vw;
+    height:auto;
+}
+
+@media screen and (min-width:1024px){
+    .img-cont-img{
+        width: 640px;
+        height: auto;
+    }
+}
+
+.text-cont {
+    margin-top: 10px;
+}
+
+.member {
+    width: 33%;
+    position: relative;
+    text-align: center;
+    /* ↓図用のスペースを空ける */
+    padding-top: 80px; 
+}
+
+.member-wrap {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    padding-top: 0px;
+    padding-left: 0px; 
+    margin: 0px;
+    /* font-size: 11px; */
+    justify-content: space-between;
+    position: relative;
+}
+
+.member::before {
+    /* ↓下揃え */
+    position: absolute;
+    bottom: 0px;
+    /* ↑下揃え */
+    content: "";
+    height: 100px;
+    left: 0;
+    margin: auto;
+    right: 0;
+    width: 100px;
+}
+
+.member._1:before{
+    background-image: url(./image/players/aicon-13.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.member._2:before{
+    background-image: url(./image/players/aicon-2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.member._3:before{
+    background-image: url(./image/players/aicon-4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.member._4:before{
+    background-image: url(./image/players/aicon-6.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.member._5:before{
+    background-image: url(./image/players/aicon-9.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.member._6:before{
+    background-image: url(./image/players/aicon-27.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.member._7:before{
+    background-image: url(./image/players/aicon-43.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.member._8:before{
+    background-image: url(./image/players/aicon-44.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.member._9:before{
+    background-image: url(./image/players/aicon-48.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.member._10:before{
+    background-image: url(./image/players/aicon-55.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img-cont-img:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.youtube {
+	width: 100% ;
+	max-width: 768px ;			/* 最大の横幅 */
+	height: 0 ;					/* 高さは0にする */
+	padding-bottom: 56.25% ;	/* 横幅に対する縦幅の比率 */
+	position: relative ;
+	top: 0 ;
+    left: 0 ;
+    margin-top: 45px;
+}
+.youtube iframe {
+	width: 100% ;		/* 親要素の余白いっぱい */
+	height: 100% ;		/* 親要素の余白いっぱい */
+	margin: 0 ;			/* 余白 */
+	padding: 0 ;		/* スペース */
+	position: absolute ;
+	top: 0 ;
+	left: 0 ;
+}
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    background:linear-gradient(100deg, #FA5FC6 0%, #A0FA08 100%);
+    color: white;
+}
